@@ -36,23 +36,12 @@ const ExperiencePage = () => {
 
     const experiences = [
         {
-            period: "2020 - Present",
-            title: "Senior Web Developer",
-            company: "Tech Solutions Inc.",
-            description: "Leading front-end development for enterprise applications"
+            period: "December 2024 - January 2025",
+            title: "Data Science Intern",
+            company: "Info Origin Pvt Ltd",
+            description: "Conducted data preprocessing, exploratory data analysis, and visualization to extract meaningful insights for decision-making. Developed interactive dashboards and automated reporting to streamline data-driven processes. Collaborated with team members to apply statistical models and machine learning techniques for predictive analytics. Tech Stack: Python, Pandas, NumPy, Matplotlib, Seaborn, Streamlit, SQL, and Scikit-learn."
         },
-        {
-            period: "2018 - 2020",
-            title: "Web Developer",
-            company: "Digital Innovations",
-            description: "Developed responsive websites and e-commerce solutions"
-        },
-        {
-            period: "2016 - 2018",
-            title: "Junior Developer",
-            company: "Web Crafters",
-            description: "Assisted in website maintenance and feature implementation"
-        }
+
     ];
 
     return (

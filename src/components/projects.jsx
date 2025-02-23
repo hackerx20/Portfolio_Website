@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import socialMediaWebApp from "../assets/socialMediaWebApp.png";
 const ProjectCard = ({ title, description, image, tags, link, index }) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -59,32 +59,32 @@ const ProjectsPage = () => {
 
     const projects = [
         {
-            title: "E-Commerce Website",
-            description: "A full-stack e-commerce platform built with React and Node.js",
-            image: "/api/placeholder/600/400",
-            tags: ["React", "Node.js", "MongoDB", "Stripe"],
-            link: "#"
+            title: "Social Media Web Application",
+            description: "A full-stack social media web platform built with MERN Stack",
+            image: socialMediaWebApp,
+            tags: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
+            link: "https://github.com/hackerx20/FriendsOrbit.git"
         },
         {
-            title: "Task Management App",
+            title: "Streamlit Dashboard",
             description: "A productivity app with drag-and-drop functionality",
             image: "/api/placeholder/600/400",
-            tags: ["React", "Redux", "Firebase"],
-            link: "#"
+            tags: ["Python", "Machine Learning", "Data Science"],
+            link: "https://github.com/hackerx20/US_Accident-2016-2023-Analysis.git"
         },
         {
-            title: "Portfolio Website",
-            description: "A responsive portfolio website built with React and Tailwind CSS",
+            title: "VS-Code Leetcode Extension",
+            description: "A VSCode Extension for Leetcode",
             image: "/api/placeholder/600/400",
-            tags: ["React", "Tailwind CSS", "Framer Motion"],
-            link: "#"
+            tags: ["HTML", "CSS", "Javascript", "Graphql", "Web APIs"],
+            link: "https://github.com/hackerx20/VsCode_Extension_CPH_LeetCode.git"
         },
         {
-            title: "Weather Dashboard",
-            description: "A weather forecast application using OpenWeather API",
+            title: "Web Annotation Chrome Extension",
+            description: "A Chrome Extension for Web Annotation",
             image: "/api/placeholder/600/400",
-            tags: ["JavaScript", "API Integration", "Chart.js"],
-            link: "#"
+            tags: ["Javascript"],
+            link: "https://github.com/hackerx20/Web_Annotator.git"
         }
     ];
 

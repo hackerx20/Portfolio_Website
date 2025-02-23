@@ -123,7 +123,7 @@ const CombinedPage = () => {
                                     href="/contact"
                                     className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-center font-medium w-full sm:w-auto"
                                 >
-                                    Contact Me
+                                    Download CV
                                 </a>
                                 <a
                                     href="/projects"
