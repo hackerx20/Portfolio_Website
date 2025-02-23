@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/navbar.jsx"; // Your layout component
 import HomePage from "./components/home.jsx";
-import AboutPage from "./components/About.jsx";
+import ExperiencePage from "./components/experience.jsx";
 import ProjectsPage from "./components/projects.jsx";
 import ContactPage from "./components/contact.jsx";
 import SkillsPage from './components/skills.jsx';
@@ -16,9 +16,9 @@ function App() {
             <HomePage />
           </Layout>
         } />
-        <Route path="/about" element={
+        <Route path="/experience" element={
           <Layout>
-            <AboutPage />
+            <ExperiencePage />
           </Layout>
         } />
         <Route path="/projects" element={

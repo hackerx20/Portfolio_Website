@@ -8,7 +8,7 @@ const SkillBar = ({ name, percentage }) => (
         </div>
         <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
             <div
-                className="bg-blue-600 dark:bg-blue-500 h-2.5 rounded-full"
+                className="bg-green-600 dark:bg-green-500 h-2.5 rounded-full"
                 style={{ width: `${percentage}%` }}
             ></div>
         </div>
@@ -56,7 +56,7 @@ const SkillsPage = () => {
                         <a
                             href="/resume.pdf"
                             download
-                            className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors inline-block font-medium"
+                            className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors inline-block font-medium"
                         >
                             Download Resume
                         </a>
