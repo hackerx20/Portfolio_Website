@@ -110,29 +110,26 @@ const CombinedPage = () => {
                     <div className="flex flex-col md:flex-row gap-8 items-center">
                         <div>
                             <p className="text-lg leading-relaxed mb-6">
-                                Lorem ipsum dolor nt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                I'm a passionate developer who thrives on solving problems efficiently. My expertise spans software development, data science, and competitive programming, with experience in RPA (Robotic Process Automation) using Microsoft Power Automate.
                             </p>
                             <p className="text-lg leading-relaxed mb-8">
-                                Ut elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                I enjoy working on projects that streamline workflows, optimize processes, and provide insightful data-driven solutions. From developing data science applications with Streamlit to integrating tools that enhance developer productivity, my work reflects my dedication to building impactful solutions.
+                            </p>
+                            <p className="text-lg leading-relaxed mb-10">
+                                Currently, I’m exploring new ways to improve developer experiences, automation, and data-driven decision-making. Always open to collaboration and new challenges!
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                                 <a
                                     href="/contact"
                                     className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-center font-medium w-full sm:w-auto"
                                 >
-                                    Let's Talk
-                                </a>
-                                <a
-                                    href="/resume.pdf"
-                                    className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-center font-medium w-full sm:w-auto"
-                                >
-                                    Read More
+                                    Contact Me
                                 </a>
                                 <a
                                     href="/projects"
                                     className="px-6 py-3 border border-green-600 text-green-600 dark:text-green-400 dark:border-green-400 rounded-md hover:bg-green-50 dark:hover:bg-green-900/20 transition-colors text-center font-medium w-full sm:w-auto"
                                 >
-                                    Hire Me
+                                    Read More
                                 </a>
                             </div>
                         </div>
