@@ -120,13 +120,14 @@ const CombinedPage = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                                 <a
-                                    href="/contact"
+                                    href="/resume.pdf"
+                                    download
                                     className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-center font-medium w-full sm:w-auto"
                                 >
                                     Download CV
                                 </a>
                                 <a
-                                    href="/projects"
+                                    href="https://github.com/hackerx20"
                                     className="px-6 py-3 border border-green-600 text-green-600 dark:text-green-400 dark:border-green-400 rounded-md hover:bg-green-50 dark:hover:bg-green-900/20 transition-colors text-center font-medium w-full sm:w-auto"
                                 >
                                     Read More
