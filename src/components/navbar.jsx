@@ -107,9 +107,9 @@ const Layout = ({ children }) => {
           `}>
                         <div className="flex flex-col space-y-4 p-4">
                             <Link to="/" className="hover:text-green-500 transition-colors">Home</Link>
-                            <Link to="/about" className="hover:text-green-500 transition-colors">About</Link>
-                            <Link to="/projects" className="hover:text-green-500 transition-colors">Projects</Link>
                             <Link to="/skills" className="hover:text-green-500 transition-colors">Skills</Link>
+                            <Link to="/projects" className="hover:text-green-500 transition-colors">Projects</Link>
+                            <Link to="/experience" className="hover:text-green-500 transition-colors">Experience</Link>
                             <Link to="/contact" className="hover:text-green-500 transition-colors">Contact</Link>
                         </div>
                     </div>
