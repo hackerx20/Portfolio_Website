@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import socialMediaWebApp from "../assets/socialMediaWebApp.png";
+import streamlitDashboard from "../assets/Streamlit_dashboard.jpeg";
 const ProjectCard = ({ title, description, image, tags, link, index }) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -68,7 +69,7 @@ const ProjectsPage = () => {
         {
             title: "Streamlit Dashboard",
             description: "A productivity app with drag-and-drop functionality",
-            image: "/api/placeholder/600/400",
+            image: streamlitDashboard,
             tags: ["Python", "Machine Learning", "Data Science"],
             link: "https://github.com/hackerx20/US_Accident-2016-2023-Analysis.git"
         },
