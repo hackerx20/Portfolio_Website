@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import socialMediaWebApp from "../assets/socialMediaWebApp.png";
 import streamlitDashboard from "../assets/Streamlit_dashboard.jpeg";
+import vscodeExtension from "../assets/vscode-extension.webp";
+import chromeExtension from "../assets/Chromeextension.png";
 const ProjectCard = ({ title, description, image, tags, link, index }) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -76,14 +78,14 @@ const ProjectsPage = () => {
         {
             title: "VS-Code Leetcode Extension",
             description: "A VSCode Extension for Leetcode",
-            image: "/api/placeholder/600/400",
+            image: vscodeExtension,
             tags: ["HTML", "CSS", "Javascript", "Graphql", "Web APIs"],
             link: "https://github.com/hackerx20/VsCode_Extension_CPH_LeetCode.git"
         },
         {
             title: "Web Annotation Chrome Extension",
             description: "A Chrome Extension for Web Annotation",
-            image: "/api/placeholder/600/400",
+            image: chromeExtension,
             tags: ["Javascript"],
             link: "https://github.com/hackerx20/Web_Annotator.git"
         }
