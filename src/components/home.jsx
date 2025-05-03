@@ -120,7 +120,7 @@ const CombinedPage = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                                 <a
-                                    href="/resume.pdfhttps://drive.google.com/drive/folders/1L18i8JvRA2YAo_jk4ikcH_DuvvA95eyg?usp=sharing"
+                                    href="https://drive.google.com/drive/folders/1L18i8JvRA2YAo_jk4ikcH_DuvvA95eyg?usp=sharing"
                                     className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-center font-medium w-full sm:w-auto"
                                 >
                                     Show Resume
