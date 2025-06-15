@@ -3,6 +3,7 @@ import socialMediaWebApp from "../assets/socialMediaWebApp.png";
 import streamlitDashboard from "../assets/Streamlit_dashboard.jpeg";
 import vscodeExtension from "../assets/vscode-extension.webp";
 import chromeExtension from "../assets/Chromeextension.png";
+import analyticsImage from "../assets/analytics.jpeg";
 const ProjectCard = ({ title, description, image, tags, link, index }) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -80,6 +81,13 @@ const ProjectsPage = () => {
             description: "A VSCode Extension for Leetcode",
             image: vscodeExtension,
             tags: ["HTML", "CSS", "Javascript", "Graphql", "Web APIs"],
+            link: "https://github.com/hackerx20/VsCode_Extension_CPH_LeetCode.git"
+        },
+        {
+            title: "NVDI_Based Land Cover Classification",
+            description: "A Classification model to predict NDVI based Land Cover",
+            image: analyticsImage,
+            tags: ["Python", "Machine Learning", "Data Science", "Logistic Regression", "Data Analytics", "Scikit-Learn"],
             link: "https://github.com/hackerx20/VsCode_Extension_CPH_LeetCode.git"
         },
         {
