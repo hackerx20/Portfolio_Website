@@ -3,7 +3,7 @@ import socialMediaWebApp from "../assets/socialMediaWebApp.png";
 import streamlitDashboard from "../assets/Streamlit_dashboard.jpeg";
 import vscodeExtension from "../assets/vscode-extension.webp";
 import chromeExtension from "../assets/Chromeextension.png";
-import analyticsImage from "../assets/landCover.jpg";
+import analyticsImage from "../assets/project-management-techniques.png";
 const ProjectCard = ({ title, description, image, tags, link, index }) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -22,7 +22,7 @@ const ProjectCard = ({ title, description, image, tags, link, index }) => {
                 <img
                     src={image}
                     alt={title}
-                    className="w-full h-60 object-cover"
+                    className="w-full h-100 object-cover"
                 />
                 <div className="p-6 flex flex-col flex-grow">
                     <h3 className="text-xl font-bold mb-2 ">{title}</h3>
