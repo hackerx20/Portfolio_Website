@@ -22,7 +22,7 @@ const ProjectCard = ({ title, description, image, tags, link, index }) => {
                 <img
                     src={image}
                     alt={title}
-                    className="w-full h-48 object-cover"
+                    className="w-full h-60 object-cover"
                 />
                 <div className="p-6 flex flex-col flex-grow">
                     <h3 className="text-xl font-bold mb-2 ">{title}</h3>
