@@ -3,7 +3,7 @@ import socialMediaWebApp from "../assets/socialMediaWebApp.png";
 import streamlitDashboard from "../assets/Streamlit_dashboard.jpeg";
 import vscodeExtension from "../assets/vscode-extension.webp";
 import chromeExtension from "../assets/Chromeextension.png";
-import analyticsImage from "../assets/analytics.jpeg";
+import analyticsImage from "../assets/landCover.jpg";
 const ProjectCard = ({ title, description, image, tags, link, index }) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -88,7 +88,7 @@ const ProjectsPage = () => {
             description: "A Classification model to predict NDVI based Land Cover",
             image: analyticsImage,
             tags: ["Python", "Machine Learning", "Data Science", "Logistic Regression", "Data Analytics", "Scikit-Learn"],
-            link: "https://github.com/hackerx20/VsCode_Extension_CPH_LeetCode.git"
+            link: "https://colab.research.google.com/drive/1a1JCFvz3QL3_ZRpLLB6hcFgjCU54rmp0?usp=sharing"
         },
         {
             title: "Web Annotation Chrome Extension",
